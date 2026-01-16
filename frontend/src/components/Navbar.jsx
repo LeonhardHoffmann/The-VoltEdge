@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="sticky top-0 border-b border-slate-200 bg-white/80 backdrop-blur-[10px] z-50 left-0 w-full px-6 py-4">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <img src="" alt="Logo" className='w-6 h-6 border border-black rounded-full' />
+          {/* <img src="" alt="Logo" className='w-6 h-6 border border-black rounded-full' /> */}
           <span className="font-bold text-md md:text-xl tracking-tight text-slate-900">The VoltEdge</span>
         </Link>
         
